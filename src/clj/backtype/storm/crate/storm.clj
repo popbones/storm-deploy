@@ -55,7 +55,7 @@
    ))
 
 (defn get-release [request branch commit]
-  (let [url "git://github.com/nathanmarz/storm.git"
+  (let [url "git://github.com/apache/storm.git"
        sha1 (if (empty? commit) "" commit)] ; empty string for pallet
 
     (-> request
