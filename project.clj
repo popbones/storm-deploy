@@ -8,7 +8,8 @@
   {"sonatype" "https://oss.sonatype.org/content/repositories/releases"
    "jclouds-snapshot" "https://oss.sonatype.org/content/repositories/snapshots"}
 
-  :dependencies [[storm "0.5.4"]
+  :dependencies [
+                 [storm "1.0.0"]
                  [commons-codec "1.4"]
                  [org.cloudhoist/pallet "0.7.5"
                   :exclusions
